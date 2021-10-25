@@ -29,9 +29,9 @@ function render(variables = {}) {
   let cover = `<div class="cover"><img src="${variables.background}" /></div>`;
   if (variables.includeCover == false) cover = "<div class='cover'></div>";
 
-  if (variables.name == null) variables.name = "Nombre";
+  if (variables.name == null) variables.name = "Lucy";
 
-  if (variables.lastname == null) variables.lastname = "Apellido";
+  if (variables.lastname == null) variables.lastname = "Boilett";
 
   if (variables.role == null) variables.role = "Ocupación";
 
